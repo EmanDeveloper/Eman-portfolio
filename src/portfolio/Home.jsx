@@ -1,6 +1,7 @@
 import "./Home.css";
 import logo from "../assets/logo.png";
 import profile from "../assets/profile.jpg";
+import Resume from "../assets/resuma1.pdf";
 import Typewriter from "typewriter-effect";
 import { TiThMenu } from "react-icons/ti";
 import { GiCrossedSabres } from "react-icons/gi";
@@ -70,7 +71,7 @@ useEffect(()=>{
             working in the computer software industry.
           </p>
           <button className="button"><a href="#more-about">More about me</a></button>
-          <button className="button"><Link to="src\assets\resuma1.pdf" download="src\assets\resuma1.pdf" target="_blank">Download CV</Link></button>
+          <button className="button"><Link to={Resume} download="Resuma" target="_blank">Download CV</Link></button>
         </div>
         <div className="right-landing">
           <div className="box"></div>
