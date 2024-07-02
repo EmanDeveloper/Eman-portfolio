@@ -174,7 +174,7 @@ function Resume(){
     </div>
     <div className="skill-group">
         <div className="skil-percent">
-            <p>Tailwind CSS</p>
+            <p>TailwindCSS</p>
             <p>80%</p>
         </div>
         <div className="progress">
