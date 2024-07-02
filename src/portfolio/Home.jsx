@@ -71,7 +71,7 @@ useEffect(()=>{
             working in the computer software industry.
           </p>
           <button className="button"><a href="#more-about">More about me</a></button>
-          <button className="button"><Link to={Resume} download="Resuma" target="_blank">Download CV</Link></button>
+          <button className="button"><a href={Resume} download>Download CV</a></button>
         </div>
         <div className="right-landing">
           <div className="box"></div>
