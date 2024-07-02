@@ -1,4 +1,5 @@
 import "./Contact.css";
+import logo from "../assets/logo.png";
 import { TiThMenu } from "react-icons/ti";
 import { GiCrossedSabres } from "react-icons/gi";
 import { MdEmail } from "react-icons/md";
@@ -53,7 +54,7 @@ function Contact(){
     return(<>
      <nav>
         <div className="left">
-        <Link to="/"><img src="src\assets\logo.png" alt="logo" /></Link>
+        <Link to="/"><img src={logo} alt="logo" /></Link>
           
         </div>
         

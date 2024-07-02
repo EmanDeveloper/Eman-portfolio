@@ -1,4 +1,6 @@
 import "./Home.css";
+import logo from "../assets/logo.png";
+import profile from "../assets/profile.jpg";
 import Typewriter from "typewriter-effect";
 import { TiThMenu } from "react-icons/ti";
 import { GiCrossedSabres } from "react-icons/gi";
@@ -22,7 +24,7 @@ useEffect(()=>{
     <>
       <nav>
         <div className="left">
-        <Link to="/"><img src="src\assets\logo.png" alt="logo" /></Link>
+        <Link to="/"><img src={logo} alt="logo" /></Link>
           
         </div>
         
@@ -79,7 +81,7 @@ useEffect(()=>{
         <div className="about-inside">
     
         <div className="left-about">
-          <img  data-aos="fade-right" src="src\assets\profile.jpg" alt="" />
+          <img  data-aos="fade-right" src={profile} alt="" />
         </div>
         <div className="right-about" data-aos="fade-left">
           <p>
