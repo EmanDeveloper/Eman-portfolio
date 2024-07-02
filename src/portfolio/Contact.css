@@ -1,0 +1,174 @@
+.get-touch
+{
+    width: 100%;
+}
+.get-touch h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fb923c;
+}
+.left-touch{
+    display: flex;
+    background: #1e293b;
+    width: 25%;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.left-touch:hover{
+background: #663004a1;
+}
+.left-touch h2{
+    margin: 10px;
+    font-size: 3rem;
+    margin-top: 15px;
+}
+.left-touch div{
+    margin: 15px;
+}
+.left-touch div h3{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #fb923c;
+}
+.get-touch-body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.conact{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+.link{
+    width: 30%;
+}
+.link h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fb923c;
+    padding-bottom: 20px;
+}
+.link-logo{
+    background-color: #1e293b;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    padding: 12px;
+    list-style: none;
+}
+.link div{
+    display: flex;
+    /* margin-left: 120px; */
+    width: 40%;
+    margin: auto;
+}
+.link-text{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.form{
+    width: 70%;
+    margin: auto;
+}
+.form h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fb923c;
+    padding-bottom: 20px;
+}
+.name{
+    background: #334155;
+    padding: 10px;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.topic{
+    background: #334155;
+    padding: 10px;
+    border-radius: 20px;
+    width: 84%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.message{
+    background: #334155;
+    padding: 10px;
+    border-radius: 20px;
+    width: 84%;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 80px;
+}
+.form button{
+    width: 20%;
+    margin-left: 30px;
+}
+.form span{
+    color: #fb923c;
+    margin-left: 30px;
+    font-weight: bold;
+}
+@media screen and (max-width: 1050px) {
+    .left-touch {
+        width: 50%;
+        height: 35vh;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        margin: 5%;
+        overflow: hidden;
+        padding: 4%;
+    }
+
+    .left-touch h2 {
+       margin: auto;
+    }
+
+    .get-touch-body {
+        flex-direction: column;
+        align-items: center;
+    }
+    .conact{
+        display: flex;
+        flex-direction: column;
+    }
+    .link{
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .link div {
+        width: 40%;
+        margin: auto;
+    }
+     .form{
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+     }
+     .form form{
+        width: 80%;
+        margin: auto;
+     }
+    .form input,
+    .form textarea {
+        width: 90%;
+    }
+
+    .form button {
+        width: 60%;
+    }
+}

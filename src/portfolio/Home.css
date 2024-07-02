@@ -1,0 +1,373 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #ffff;
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #020617;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#334155; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #482509; 
+  }
+
+nav{
+    overflow: hidden;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 0px 10px black;
+}
+.hid{
+    top: -100px;
+    margin-left: 35%;
+}
+.no{
+    display: none;
+    clear: right;
+}
+.menu{
+    margin: 25px;
+    font-size: 35px;
+    float: right;
+}
+.right{
+    position: absolute;
+    top: 70px;
+    width: 30%;
+    margin:10px 20px;
+    background:#1e293b;
+    margin-left: 35%;
+    border-radius: 10px;
+    transition:1s ease-in-out;
+}
+.right ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.right ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.right ul li a{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+.right ul li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fb923c;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;  
+}
+.right ul li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.right ul li a:hover{
+    color: #fb923c;
+}
+.left img{
+    width: 80%;
+    height: 130%;
+    margin-bottom: 6px;
+    margin-left: 70px;
+}
+.landing{
+    color: #000000;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.left-landing{
+    margin: 10% 0%;
+    margin-left: 15%;
+    width: 50vw;
+}
+.left-landing h2{
+    font-weight:bold ;
+    font-size: 2.5rem;
+}
+.left-landing h2 span{
+    color: #fb923c;
+}
+.landing .p{
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+.landing p span{
+    color: #fb923c;
+}
+.box{
+    margin-top: 40px;
+    margin-left: 40px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: rgb(0, 0, 0,0.5);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.box::before{
+    content: "";
+    position: absolute;
+    inset: 0 110px;
+    background: #fb923c;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+.box:hover::before{
+    inset: 0 0px;
+}
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box:after{
+    content: "";
+    position: absolute;
+    inset: 6px;
+    background: url("Eman.png") no-repeat center center/cover;
+    filter: grayscale(100%);
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+}
+.right-landing{
+    margin: 5% 10%;
+    width: 50%;
+}
+.button{
+    background: #1e293b;
+    margin: 20px 5px;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #fb923c;
+}
+.button::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #f97316;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 20px;
+    transform: translateX(-110%);
+    transition: 1s;
+    z-index: -1;
+}
+.button:hover::before{
+    transform: translateX(0%);
+}
+.button:hover{
+    transition: all 1s;
+    color:white;
+}
+.about{
+    width: 100%;
+    /* height: 100vh; */
+    overflow: hidden;
+}
+.about-inside{
+    display: flex;
+    overflow: hidden;
+}
+.about-heading{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fb923c;
+    transition:1s ease-in-out 0.5s;
+}
+.left-about img{
+    width: 25vw;
+    height: 70vh;
+    margin: 0 80px;
+    border-radius: 20px;
+}
+.right-about{
+    width: 50vw;
+    margin: 15px 0;
+}
+.vision{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fb923c;
+}
+.hireme{
+    width: 80%;
+    /* height: 60vh; */
+    background:#1e293b;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-bottom: 1%;
+}
+.hireme h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #fb923c;
+}
+.hireme p{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 10px 180px;
+}
+.hireme-btn{
+    margin-left: 50%;
+    background:#334155;
+}
+hr{
+    color: white;
+}
+footer img{
+    width: 15%;
+    margin: auto;
+}
+footer p{
+    text-align: center;
+    padding-top: 0;
+}
+footer p span{
+    color: #fb923c;
+    padding-bottom: 30px;
+}
+@media (max-width: 1050px) {
+    .left img{
+        width: 70%;
+        height: 110%;
+        margin-bottom: 3%;
+        margin-left: 20px;
+    }
+
+    .right{
+        position: absolute;
+        top: 70px;
+        width: 50%;
+        margin:10px 20px;
+        background:#1e293b;
+        margin-left: 25%;
+        border-radius: 10px;
+        transition:1s ease-in-out;
+    }
+    .menu{
+        margin: 25px;
+        font-size: 30px;
+        float: right;
+    }
+    .right ul li a{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .landing {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+    }
+    
+    .left-landing {
+        margin: 10% 0;
+        margin-left: 0;
+        width: 90%;
+        /* text-align: center; */
+    }
+
+    .box {
+        margin: 20px 0;
+        width: 90%;
+        height: auto;
+        padding-bottom: 90%;
+    }
+
+    .about-inside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-about img {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .left-about img{
+        width: 40%;
+        margin: auto;
+    }
+    .right-about {
+        width: 90%;
+        margin: 20px 0;
+        /* text-align: center; */
+    }
+    .right-about p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .vision{
+        margin-left: 5%;
+    }
+    .re{
+        margin-left: 5%;
+    }
+    .hireme p {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .hireme-btn {
+        margin-left: 0;
+        display: block;
+        margin: 20px auto;
+    }
+
+    footer img {
+        width: 50%;
+    }
+}
