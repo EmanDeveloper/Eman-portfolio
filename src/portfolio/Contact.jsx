@@ -145,7 +145,7 @@ function Contact(){
       </div>
       <hr />
       <footer className={click?"no":""}>
-        <img src="src\assets\logo.png" alt="" />
+        <img src={logo} alt="" />
         <p>Copyright &copy; {new Date().getFullYear()} All rights reserved | <span>Eman Developer</span></p>
       </footer>
     </>)
