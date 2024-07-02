@@ -85,7 +85,7 @@ useEffect(()=>{
         </div>
         <div className="right-about" data-aos="fade-left">
           <p>
-            I'm Haseeb ul Amin, a Computer Science student at COMSATS
+            I'm Eman, a Computer Science student at COMSATS
             University, Sahiwal Campus, Pakistan. Proficient in C, C++, HTML,
             CSS, JavaScript, and Java, I recently completed a Frontend Developer
             Course from Great Learning. Actively applying my skills, I've
