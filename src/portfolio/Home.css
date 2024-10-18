@@ -164,7 +164,7 @@ nav{
     content: "";
     position: absolute;
     inset: 6px;
-    background: url("Eman.png") no-repeat center center/cover;
+    background: url("Eman.jpg") no-repeat center center/cover;
     filter: grayscale(100%);
     background-color: white;
     border-radius: 50%;
