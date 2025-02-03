@@ -64,6 +64,7 @@ function Contact(){
             <li><Link to="/">Home</Link></li>
             <li><Link to="/Resume">Resume</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
+            <li><Link to="/project">Project</Link></li>
           </ul>
         </div>
       </nav>

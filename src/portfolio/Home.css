@@ -275,7 +275,7 @@ footer p{
 }
 footer p span{
     color: #fb923c;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 @media (max-width: 1050px) {
     .left img{
