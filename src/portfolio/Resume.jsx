@@ -31,6 +31,7 @@ function Resume(){
             <li><Link to="/Resume">Resume</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
             <li><Link to="/project">Project</Link></li>
+            <li><Link to="/certificate">Certificate</Link></li>
           </ul>
         </div>
       </nav>
@@ -70,40 +71,6 @@ function Resume(){
   </div>
   </div>
           </div>
-        </div>
-      </div>
-
-      <div className= {click?"no":"exprience overflow-hidden"} >
-        <h1>EXPRIENCE</h1>
-        <div className="inside-exprience">
-        <div className="left-exprience" data-aos="fade-up-right">
-
-          <div className="left-ex-box" data-aos="fade-down" >
-            <h2>01</h2>
-            <div>
-            <h3>TestPioneers - Frontend</h3>
-            <p>Feb 2023 - present</p>
-            </div>
-          </div>
-          <div className="left-ex-box" data-aos="fade-right">
-            <h2>02</h2>
-            <div>
-            <h3>Impassive Sol - Frontend</h3>
-            <p>Sep 2022 - Jan 2023</p>
-            </div>
-          </div>
-          <div className="left-ex-box" data-aos="fade-up">
-            <h2>03</h2>
-            <div>
-            <h3>TechDev - UI Designer</h3>
-            <p>Mar 2022 - Aug 2022</p>
-            </div>
-          </div>
-
-        </div>
-        <div className="right-exprience" data-aos="fade-left">
-          <p>More than one year experience as a <span>Frontend Developer</span></p>
-        </div>
         </div>
       </div>
 

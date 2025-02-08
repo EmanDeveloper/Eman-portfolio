@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import { useState } from "react";
 import { TiThMenu } from "react-icons/ti";
 import { GiCrossedSabres } from "react-icons/gi";
-import { GrLinkNext } from "react-icons/gr";
+
 
 import projectImg1 from "../assets/portflioBuild.jpg";
 import projectImg2 from "../assets/chatApp.jpg";
@@ -40,6 +40,7 @@ const Project = () => {
             <li>
               <Link to="/Contact">Contact</Link>
             </li>
+            <li><Link to="/certificate">Certificate</Link></li>
           </ul>
         </div>
       </nav>
