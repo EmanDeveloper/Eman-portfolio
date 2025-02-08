@@ -108,8 +108,8 @@ function Contact(){
         <div className="link">
             <h1>LET'S CONNECT</h1>
             <div>
-            <Link to="https://www.linkedin.com/in/eman-developer" className="link-logo"><FaLinkedinIn/></Link>
-            <Link to="https://www.linkedin.com/in/eman-developer" className="link-text">Linkdin</Link>
+            <Link to="https://www.linkedin.com/in/eman-developer" className="link-logo" target="_blank"><FaLinkedinIn/></Link>
+            <Link to="https://www.linkedin.com/in/eman-developer" className="link-text" target="_blank">Linkdin</Link>
             </div>
 
             <div>
@@ -118,13 +118,13 @@ function Contact(){
             </div>
 
             <div>
-            <Link to="https://www.instagram.com/emanjunior7?igsh=YzljYTk1ODg3Zg== " className="link-logo"><FaInstagram/></Link>
-            <Link to="https://www.instagram.com/emanjunior7?igsh=YzljYTk1ODg3Zg== " className="link-text">Instagram</Link>
+            <Link to="https://www.instagram.com/emanjunior7?igsh=YzljYTk1ODg3Zg== " className="link-logo" target="_blank"><FaInstagram/></Link>
+            <Link to="https://www.instagram.com/emanjunior7?igsh=YzljYTk1ODg3Zg== " className="link-text" target="_blank">Instagram</Link>
             </div>
 
             <div>
-            <Link to="https://www.facebook.com/emankhadim.mauhammadkadim" className="link-logo"><FaFacebook/></Link>
-            <Link to="https://www.facebook.com/emankhadim.mauhammadkadim" className="link-text" >Facebook</Link>
+            <Link to="https://www.facebook.com/emankhadim.mauhammadkadim" className="link-logo" target="_blank"><FaFacebook/></Link>
+            <Link to="https://www.facebook.com/emankhadim.mauhammadkadim" className="link-text" target="_blank">Facebook</Link>
             </div>
 
         </div>
