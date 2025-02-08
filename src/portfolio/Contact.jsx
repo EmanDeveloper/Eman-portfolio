@@ -108,8 +108,8 @@ function Contact(){
         <div className="link">
             <h1>LET'S CONNECT</h1>
             <div>
-            <Link to="www.linkedin.com/in/eman-developer" className="link-logo"><FaLinkedinIn/></Link>
-            <Link to="www.linkedin.com/in/eman-developer" className="link-text">Linkdin</Link>
+            <Link to="https://www.linkedin.com/in/eman-developer" className="link-logo"><FaLinkedinIn/></Link>
+            <Link to="https://www.linkedin.com/in/eman-developer" className="link-text">Linkdin</Link>
             </div>
 
             <div>
