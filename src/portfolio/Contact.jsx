@@ -63,7 +63,6 @@ function Contact(){
           <ul className="no">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/Resume">Resume</Link></li>
-            <li><Link to="/Contact">Contact</Link></li>
             <li><Link to="/project">Project</Link></li>
             <li><Link to="/certificate">Certificate</Link></li>
           </ul>
@@ -147,8 +146,8 @@ function Contact(){
       </div>
       <hr />
       <footer className={click?"no":""}>
-        <img src={logo} alt="" />
-        <p>Copyright &copy; {new Date().getFullYear()} All rights reserved | <span>Eman Developer</span></p>
+        <img src={logo} className="w-24 h-24" alt="" />
+        <p className="mb-4">Copyright &copy; {new Date().getFullYear()} All rights reserved | <span>Eman Developer</span></p>
       </footer>
     </>)
 }
