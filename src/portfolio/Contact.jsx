@@ -41,7 +41,7 @@ function Contact(){
     if (data.success) {
       setResult("Form Submitted Successfully");
       event.target.reset();
-      setTimeout(()=>setResult(""),1000);
+      setTimeout(()=>setResult(""),2000);
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -132,12 +132,12 @@ function Contact(){
         <div className="form">
             <h1>SEND ME A MESSAGE</h1>
             <form onSubmit={onSubmit}>
-                <input className="name" type="text" placeholder="Name" required/>
-                <input className="name" type="email" placeholder="Email" required/>
+                <input className="name" type="text" placeholder="Name" name="name" required/>
+                <input className="name" type="email" placeholder="Email" name="email" required/>
                 <br />
-                <input className="topic" type="text" placeholder="Topic" required/>
+                <input className="topic" type="text" placeholder="Topic" name="topic" required/>
                 <br />
-                <textarea className="message" placeholder="Create message here" required></textarea>
+                <textarea className="message" placeholder="Create message here" name="message" required></textarea>
                 <br />
                 <button type="submit" className="button">Submit</button>
             </form>
