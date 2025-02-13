@@ -27,7 +27,7 @@ function Resume() {
 
         <div className={click ? "right" : "hid"}>
           <div className="menu" onClick={handelslick}>
-            {click ? <GiCrossedSabres /> : <TiThMenu />}
+            {click ? <GiCrossedSabres className="cursor-pointer"/> : <TiThMenu className="cursor-pointer pb-12 pt-0 font-semibold text-7xl"/>}
           </div>
           <ul className="no">
             <li>

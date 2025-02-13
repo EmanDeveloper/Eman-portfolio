@@ -55,7 +55,6 @@ nav{
     position: absolute;
     top: 70px;
     width: 30%;
-    margin:10px 20px;
     background:#1e293b;
     margin-left: 35%;
     border-radius: 10px;
@@ -97,10 +96,11 @@ nav{
     color: #fb923c;
 }
 .left img{
-    width: 80%;
-    height: 130%;
-    margin-bottom: 6px;
+    width: 40%;
+    height: 90%;
+    margin-bottom: 2px;
     margin-left: 70px;
+    margin-top: 5px;
 }
 .landing{
     color: #000000;
