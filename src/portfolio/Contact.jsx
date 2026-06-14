@@ -79,7 +79,7 @@ function Contact(){
             <h2><MdEmail/></h2>
             <div>
             <h3>Email</h3>
-            <p>memankhadim @gmail.com</p>
+            <p>memankhadim@gmail.com</p>
             </div>
             </div>
 

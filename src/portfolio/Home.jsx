@@ -60,15 +60,14 @@ function Home() {
               <Typewriter
                 options={{
                   strings: [
-                    "Cpp",
-                    "Java",
-                    "DSA",
-                    "Opp",
-                    "Java Script",
-                    "SQL",
-                    "HTML",
-                    "CSS",
-                    "REACT",
+                    "React.js",
+                    "Next.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "TypeScript",
+                    "Socket.io",
+                    "Full-Stack Development",
                   ],
                   autoStart: true,
                   loop: true,
@@ -77,8 +76,9 @@ function Home() {
             </span>
           </p>
           <p>
-            Dedicated MERN Stack Developer with a strong foundation in building
-            dynamic, responsive, and user-friendly web applications.
+            Full-Stack Developer delivering scalable, production-grade web
+            applications for international clients — across React.js, Next.js,
+            Node.js, Express.js, and MongoDB.
           </p>
           <button className="button">
             <a href="#more-about">More about me</a>
@@ -103,16 +103,16 @@ function Home() {
           </div>
           <div className="right-about" data-aos="fade-left">
             <p>
-              I'm Eman, a Computer Science student at COMSATS University,
-              Sahiwal Campus. As a MERN Stack Developer, I am proficient in C++,
-              Java,Python, HTML, CSS, JavaScript, React, Node.js, Express.js,
-              and databases like MySQL and MongoDB. Additionally, I have
-              experience training a text summarization model on Hugging Face. I
-              recently completed a MERN Stack course from Great Learning and
-              actively apply my skills by working on projects to enhance my
-              expertise. Beyond academics, I actively participate in coding
-              competitions and enjoy solving complex problems through innovative
-              solutions.
+              I'm Eman, a Full-Stack Developer specialized in architecting
+              end-to-end solutions across React.js, Next.js, Node.js,
+              Express.js, and MongoDB. I have proven experience delivering
+              scalable, production-grade web applications for international
+              clients — including multi-tenant SaaS platforms with secure
+              authentication, role-based access control (RBAC), and real-time
+              systems built on Socket.io. I have a strong command of RESTful API
+              design, performance optimization, and AI/ML integration (OCR and
+              LLMs), and I enjoy shipping features from concept to deployment
+              within agile, remote engineering teams.
             </p>
             <h1 className="vision">MY VISION</h1>
             <p>

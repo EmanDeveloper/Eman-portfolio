@@ -8,8 +8,7 @@ import { GiCrossedSabres } from "react-icons/gi";
 import projectImg1 from "../assets/portflioBuild.jpg";
 import projectImg2 from "../assets/chatApp.jpg";
 import projectImg3 from "../assets/ecommerce.jpg";
-import projectImg4 from "../assets/netflix-clone.webp";
-import projectImg5 from "../assets/textToImage.jpeg";
+import projectImg4 from "../assets/textToImage.jpeg";
 
 const Project = () => {
   const [click, setClick] = useState(false);
@@ -49,64 +48,64 @@ const Project = () => {
         <h1>Projects</h1>
 
         <div className="flex flex-wrap justify-center gap-6 p-6">
-          {/* Card 1 */}
-          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="https://theta-konnect.netlify.app/" target="/blank">
+          {/* Card 1 - Portfolio Management Platform */}
+          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="https://theta-konnect.netlify.app/" target="_blank" rel="noreferrer">
             <img
               className="w-full h-40 object-cover rounded-t-md"
               src={projectImg1}
-              alt="Project 5"
+              alt="Portfolio Management Platform"
             />
-            <p className="text-black p-4 text-sm">
-            A free live demo where users can easily create and showcase their portfolios. Built with the MERN stack for a seamless experience.
-            </p>
+            <div className="p-4">
+              <h2 className="text-black font-bold text-base">Portfolio Management Platform</h2>
+              <p className="text-black pt-1 text-sm">
+                A responsive full-stack portfolio platform built with React.js, Node.js, Express.js, and MongoDB for showcasing projects and professional profiles, with clean API integration and reusable components.
+              </p>
+            </div>
           </Link>
 
-          {/* Card 2 */}
-          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="https://github.com/EmanDeveloper/ChatApp-mernstack" target="/blank">
+          {/* Card 2 - Real-Time Chat Application */}
+          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="https://github.com/EmanDeveloper/ChatApp-mernstack" target="_blank" rel="noreferrer">
             <img
               className="w-full h-40 object-cover rounded-t-md"
               src={projectImg2}
-              alt="Project 5"
+              alt="Real-Time Chat Application"
             />
-            <p className="text-black p-4 text-sm">
-            A real-time chat application powered by Socket.io. Hosted on GitHub, featuring instant messaging and live updates.
-            </p>
+            <div className="p-4">
+              <h2 className="text-black font-bold text-base">Real-Time Chat Application</h2>
+              <p className="text-black pt-1 text-sm">
+                A full-stack real-time messaging app using React.js, Node.js, Express.js, and Socket.io, with JWT authentication, protected routes, and a fully responsive Tailwind CSS interface.
+              </p>
+            </div>
           </Link>
 
-          {/* Card 3 */}
-          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="https://github.com/EmanDeveloper/mern-stack-Ecommerce" target="/blank">
+          {/* Card 3 - Easy Finder Platform */}
+          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="https://github.com/EmanDeveloper" target="_blank" rel="noreferrer">
             <img
               className="w-full h-40 object-cover rounded-t-md"
               src={projectImg3}
-              alt="Project 5"
+              alt="Easy Finder Platform"
             />
-            <p className="text-black p-4 text-sm">
-            A feature-rich e-commerce website with product listings, cart functionality, and secure checkout. Code available on GitHub.
-            </p>
+            <div className="p-4">
+              <h2 className="text-black font-bold text-base">Easy Finder Platform</h2>
+              <p className="text-black pt-1 text-sm">
+                A full-stack product comparison platform built with Next.js and Supabase, enabling cross-website comparison of laptops, phones, and tablets with country- and price-based filtering.
+              </p>
+            </div>
           </Link>
 
-          {/* Card 4 */}
-          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="https://github.com/EmanDeveloper/mern-stack-netflixclone" target="/blank">
+          {/* Card 4 - DiagnoXpert AI Healthcare Platform */}
+          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="https://github.com/EmanDeveloper" target="_blank" rel="noreferrer">
             <img
               className="w-full h-40 object-cover rounded-t-md"
               src={projectImg4}
-              alt="Project 5"
+              alt="DiagnoXpert AI Healthcare Platform"
             />
-            <p className="text-black p-4 text-sm">
-            A Netflix-style streaming platform with a modern UI, authentication, and media browsing. Explore the source code on GitHub.
-            </p>
-          </Link>
-
-          {/* Card 5 */}
-          <Link className="bg-orange-50 w-64 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300"  to="/project">
-            <img
-              className="w-full h-40 object-cover rounded-t-md"
-              src={projectImg5}
-              alt="Project 5"
-            />
-            <p className="text-black p-4 text-sm">
-            An AI-powered tool that generates images from text prompts using a Hugging Face model. Experiment with creative image generation.
-            </p>
+            <div className="p-4">
+              <h2 className="text-black font-bold text-base">DiagnoXpert — AI Healthcare</h2>
+              <p className="text-black pt-1 text-sm">
+                A Next.js healthcare platform with doctor and patient dashboards, RBAC, Tesseract.js OCR, and a Llama3-OpenBioLLM pipeline for AI-powered medical guidance, real-time chat, and appointment booking.
+              </p>
+            </div>
           </Link>
         </div>
       </div>
